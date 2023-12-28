@@ -74,7 +74,7 @@ public class LoginTest extends TestBase {
 		loginPage.clickOnLoginButton();
 		
 		
-		Assert.assertTrue(driver.findElement(By.linkText("Edit your account informations")).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.linkText("Edit your account information")).isDisplayed());
 	}
 	
 	@Test(priority = 3)
